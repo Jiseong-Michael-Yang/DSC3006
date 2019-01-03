@@ -1,2 +1,2 @@
 # DSC3006
-Assignments in Introduction to Machine Learning (Fall 2018)
+Assignments and project in Introduction to Machine Learning (Fall 2018)
