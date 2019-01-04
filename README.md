@@ -41,7 +41,24 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
 ## 2. Project: Lego Set Price Prediction (Multiple Linear Regressions & Neural Network)
 
   ### 1. Introduction
+
+  #### Kidults
   
+  * Kidults refers to grown-ups who still are consumers of toys.
+  * Kidult culture is rising as well as their power in the market.
+  * A marketing survey designed by myself to measure the kidults' satisfaction level on Lego's marketing efforts(product, price, place and promotion) had been conducted. 
+  
+  #### Survey Result
+ 
+  ![image](https://user-images.githubusercontent.com/46237445/50703659-32828a00-1098-11e9-99df-7a9bd619b400.png)
+
+  * Respondents' level of satisfaction on the product was quite fair given other areas and the average.
+  * However, they expressed a strong dissatisfaction on price-related marketing efforts of Lego with the score of 2.3 out of 5, which is notably lower than the average score of 3.17.
+  * This implies the gap between the *percerived value* and *the price*, probably caused by some *outliers* or unreasonably priced product set.
+
+  #### The Goal of the Project
+  Decrease the gap between the *percerived value* and *the price* by creating a model that is not or less affected by *outliers*.
+    
   ### 2. Data Description
   
   ### 3. Exploratory Data Analysis (EDA)
