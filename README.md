@@ -38,7 +38,7 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
     * Visualize the result.
     * Compare each methods.
     
- > Please refer to "Assignment1.pdf" for the datailed report. 
+ > Please refer to "Assignment2.pdf" for the datailed report. 
 
 ## 2. Project: Lego Set Price Prediction (Multiple Linear Regressions & Neural Network)
 
