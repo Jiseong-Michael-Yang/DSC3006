@@ -22,8 +22,6 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
 
 ### 2. Assignment 2: Ensemble Learning
 
-  * 
-
   * Goal  
     The goal of assignment 2 is to practice ensemble learning.
   
