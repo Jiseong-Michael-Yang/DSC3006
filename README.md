@@ -18,7 +18,7 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
       * y_train.csv: 264 samples, 1 target (from 1 to 5, each number represents a category)
       * X_test.csv: 131 samples, 30 features (the dataset you test your model)
       
-> Please refer to "Assignment1.pdf" for the datailed report.   
+> Please refer to "~/Assignment1/Assignment1.pdf" for the datailed report.   
 
 ### 2. Assignment 2: Ensemble Learning
 
@@ -36,7 +36,7 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
     * Visualize the result.
     * Compare each methods.
     
- > Please refer to "Assignment2.pdf" for the datailed report. 
+ > Please refer to "~/Assignmnet2/Assignment2.pdf" for the datailed report. 
 
 ## 2. Project: Lego Set Price Prediction (Multiple Linear Regressions & Neural Network)
 
