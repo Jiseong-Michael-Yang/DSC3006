@@ -50,7 +50,7 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
   
   #### Survey Result
  
-  ![image](https://user-images.githubusercontent.com/46237445/50703659-32828a00-1098-11e9-99df-7a9bd619b400.png)
+  ![image](https://user-images.githubusercontent.com/46237445/50714185-1512e780-10bb-11e9-84db-278e1b8f0f39.png)
 
   * Respondents' level of satisfaction on the product was quite fair given other areas and the average.
   * However, they expressed a strong dissatisfaction on price-related marketing efforts of Lego with the score of 2.3 out of 5, which is notably lower than the average score of 3.17.
@@ -60,11 +60,75 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
   Decrease the gap between the *percerived value* and *the price* by creating a model that is not or less affected by *outliers*.
     
   ### 2. Data Description
+  > Please refer to '~/Final Project/Lego Set Price Prediction_Final_Team2.pdf' for the detailed project description.
+  * Dataset
+    * ["Are Lego Sets Too Pricey?", Jonathan Bouchet, Kaggle](https://www.kaggle.com/jonathanbouchet/are-lego-sets-too-pricey/data)
+    * 12261 rows with 14 columns
+    * The dataset does not include the entire product lines. 
   
+  * Features
+    * Numerical Features
+      * list_price **[target]**
+      * num_reviews
+      * piece_count
+      * play_star_rating
+      * star_rating
+      * var_star_rating
+      * prod_id
+    * Categorical Features
+      * ages
+      * theme_name
+      * review_difficulty
+      * country
+      * prod_desc
+      * prod_log_desc
+      * set_name
+
   ### 3. Exploratory Data Analysis (EDA)
   
-  ### 4. Preprocessing
+  * Histogram, Barplot and Swarmplot
+    * 'ages' and 'list_price' are positively correlated.
+    * 'review_difficulty'and 'list_price' are positively correlated.
+    * There are considerable number of outliers.
+  * Correlation
+    * 'piece_count' highly correlated with the 'list_price' positively.
+    * Rating-related features are correlated with one another.
+
+  ### 4. Data Preprocessing
+
+  * Remove Unnecessary Features
+    * Product Descriptions (prod_desc & prod_log_desc)
+    * Product ID (prod_id)
+    * Set Names (set_name)
+  * Categorical Value Encoding
+    * Cateogorical values were one-hot encoded.  
+    ![image](https://user-images.githubusercontent.com/46237445/50728223-cc663780-1169-11e9-8702-c0018bbf277a.png)
+  * Grouping of Values
+    * Country Names (country)
+    * Theme Names (theme_name)
+    * Age Range (ages)
+  * Outlier Removal
+    * Outliers detected in the EDA stage has been removed with 'IsolationForest' from 'sklearn'  
+    ![image](https://user-images.githubusercontent.com/46237445/50728236-02a3b700-116a-11e9-839e-0555945d1694.png)
+  * Standardization
+    * Numerical features has been normalized with 'StandardScaler' from 'sklearn'.
+  * Multi-collinearity Problem
+    * VIF has greatly been stabilized due to the standardization.  
+      ![image](https://user-images.githubusercontent.com/46237445/50728231-e30c8e80-1169-11e9-8581-7c146702c656.png)
+  * Data Split (Hold-Out)
+    * The ratio of the train, validation, and test sets was 60%: 20%: 20%.
   
   ### 5. Model Fitting and Evaluation
+  * Models
+    * Model with 94 features (full model)
+    * Model with 22 features (reduced model 1)
+    * Model with 3 features by PCA (reduced model )
+  * Ordinary Least Squares (OLS)
+  * Neural Network (Tensorflow)
+  * Least Absolute Shrinkage and Selection Operator (LASSO)
+  * Model Summary  
+    Number of Features | R-squared | Adj. R-squared | F-statistics | p-value | Mean Squared Error |
+    :---:| :---: | :---: | :---: | :---: | :---: |
+
   
   ### 6. Conclusion
