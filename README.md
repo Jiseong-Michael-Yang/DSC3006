@@ -50,7 +50,9 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
   
   #### Survey Result
  
-  ![image](https://user-images.githubusercontent.com/46237445/50714185-1512e780-10bb-11e9-84db-278e1b8f0f39.png)
+  <center>
+  <img src = https://user-images.githubusercontent.com/46237445/50714185-1512e780-10bb-11e9-84db-278e1b8f0f39.png>
+  </center>
 
   * Respondents' level of satisfaction on the product was quite fair given other areas and the average.
   * However, they expressed a strong dissatisfaction on price-related marketing efforts of Lego with the score of 2.3 out of 5, which is notably lower than the average score of 3.17.
@@ -102,7 +104,9 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
     * Set Names (set_name)
   * Categorical Value Encoding
     * Cateogorical values were one-hot encoded.  
-    ![image](https://user-images.githubusercontent.com/46237445/50728223-cc663780-1169-11e9-8702-c0018bbf277a.png)
+    <left>
+    <img src = https://user-images.githubusercontent.com/46237445/50728223-cc663780-1169-11e9-8702-c0018bbf277a.png width = 200>
+    </left>
   * Grouping of Values
     * Country Names (country)
     * Theme Names (theme_name)
@@ -114,7 +118,9 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
     * Numerical features has been normalized with 'StandardScaler' from 'sklearn'.
   * Multi-collinearity Problem
     * VIF has greatly been stabilized due to the standardization.  
-      ![image](https://user-images.githubusercontent.com/46237445/50728231-e30c8e80-1169-11e9-8581-7c146702c656.png)
+      <left>
+      <img src = https://user-images.githubusercontent.com/46237445/50728231-e30c8e80-1169-11e9-8581-7c146702c656.png width = 200>
+      </left>
   * Data Split (Hold-Out)
     * The ratio of the train, validation, and test sets was 60%: 20%: 20%.
   
@@ -124,9 +130,10 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
     * Model with 22 features (reduced model 1)
       * Grouping of the features.
     * Model with 3 features by PCA (reduced model 2)
-      * Scree Plot
-      ![image](https://user-images.githubusercontent.com/46237445/50733642-6d89d800-11d4-11e9-85e8-d387b9960034.png)
-
+      * Scree Plot  
+      <left>
+      <img src = https://user-images.githubusercontent.com/46237445/50733642-6d89d800-11d4-11e9-85e8-d387b9960034.png width = 200>
+      </left>
       
   * Ordinary Least Squares (OLS)
     * In Multiple Linear Regression (MLR) by OLS, R Squared, Adj. R Squared, F-statistics, and p-value were fair for all three models, though ones with more features displayed higher explanatory power. 
