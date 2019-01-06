@@ -142,6 +142,7 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
   
 * Model Summary
   * Plots  
+    
     Number of Features | Residual Plot(MLR) | Predicted vs. Actual (NN) |
     :---: | :---: | :---: |
     94| ![image](https://user-images.githubusercontent.com/46237445/50733599-c1e08800-11d3-11e9-8da9-ee69e53a77fc.png) | ![image](https://user-images.githubusercontent.com/46237445/50733601-c9a02c80-11d3-11e9-852d-5dd15d68d565.png) |
@@ -149,11 +150,12 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
     3 | ![image](https://user-images.githubusercontent.com/46237445/50733655-97db9580-11d4-11e9-98f8-7bfc21ccaebd.png) | ![image](https://user-images.githubusercontent.com/46237445/50733659-a88c0b80-11d4-11e9-9a07-295259b1181b.png) |
 
   * Mean Squared Error  
-      Number of Features | OLS | NN | 
-      :---:| :---: | :---: |
-      94 | 0.0821 | 0.0331 |
-      22 | 0.1595 | 0.0492 |
-      3 | 0.1022 | 0.0521 |
+    
+    Number of Features | OLS | NN | 
+    :---:| :---: | :---: |
+    94 | 0.0821 | 0.0331 |
+    22 | 0.1595 | 0.0492 |
+    3 | 0.1022 | 0.0521 |
 
   * Efficiency-Accuracy Tradeoff
     * Full model performs better.
