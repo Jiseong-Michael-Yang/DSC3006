@@ -122,13 +122,53 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
   * Models
     * Model with 94 features (full model)
     * Model with 22 features (reduced model 1)
-    * Model with 3 features by PCA (reduced model )
-  * Ordinary Least Squares (OLS)
-  * Neural Network (Tensorflow)
-  * Least Absolute Shrinkage and Selection Operator (LASSO)
-  * Model Summary  
-    Number of Features | R-squared | Adj. R-squared | F-statistics | p-value | Mean Squared Error |
-    :---:| :---: | :---: | :---: | :---: | :---: |
+      * Grouping of the features.
+    * Model with 3 features by PCA (reduced model 2)
+      * Scree Plot
+      ![image](https://user-images.githubusercontent.com/46237445/50733642-6d89d800-11d4-11e9-85e8-d387b9960034.png)
 
+      
+  * Ordinary Least Squares (OLS)
+    * In Multiple Linear Regression (MLR) by OLS, R Squared, Adj. R Squared, F-statistics, and p-value were fair for all three models, though ones with more features displayed higher explanatory power. 
+    * Mean squared errors tend to be greater than that of neural network model. 
+  * Neural Network (Tensorflow)
+    * 2 hidden layers, 50 inputs between hidden layers, drop-out rate of 0.7, and 10,000 iterations.
+    * Better performance compared to OLS in general.
+  * Least Absolute Shrinkage and Selection Operator (LASSO)
+    * Best performance where alpha equals zero.  
+    ![image](https://user-images.githubusercontent.com/46237445/50729287-a4cb9b00-117a-11e9-8f5c-ef0bbd1f804a.png)
+
+    * No need for regularization.
   
+* Model Summary
+  * Plots
+    Number of Features | Residual Plot(MLR) | Predicted vs. Actual (NN) |
+    :-: | :-: |:-: |
+    94| ![image](https://user-images.githubusercontent.com/46237445/50733599-c1e08800-11d3-11e9-8da9-ee69e53a77fc.png) | ![image](https://user-images.githubusercontent.com/46237445/50733601-c9a02c80-11d3-11e9-852d-5dd15d68d565.png) |
+    22 | ![image](https://user-images.githubusercontent.com/46237445/50733614-010ed900-11d4-11e9-8ea8-5c37c72b889e.png) | ![image](https://user-images.githubusercontent.com/46237445/50733616-0835e700-11d4-11e9-933f-a31fbaf03b74.png) |
+    3 | ![image](https://user-images.githubusercontent.com/46237445/50733655-97db9580-11d4-11e9-98f8-7bfc21ccaebd.png) | ![image](https://user-images.githubusercontent.com/46237445/50733659-a88c0b80-11d4-11e9-9a07-295259b1181b.png) |
+
+
+
+  * Mean Squared Error  
+    Number of Features | OLS | NN | 
+      :---:| :---: | :---: |
+      94 | 0.0821 | 0.0331 |
+      22 | 0.1595 | 0.0492 |
+      3 | 0.1022 | 0.0521 |
+
+  * Efficiency-Accuracy Tradeoff
+    * Full model performs better.
+    * Full model recommended given sufficient computing power and time.
+
   ### 6. Conclusion
+
+  #### Significance
+  * Setting a basis of Lego Set Price
+  * Beneficial to both the customers and the manufacturers
+  * Applicable to all consumer goods
+  
+  #### Limitaions
+  * Data incompleteness of not covering all product lines, countries, and etc.
+  * Better modeling will be possible with better dataset. 
+  
