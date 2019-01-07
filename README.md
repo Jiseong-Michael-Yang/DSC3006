@@ -127,14 +127,18 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
   ### 5. Model Fitting and Evaluation
   * Models
     * Model with 94 features (full model)
+      > Please refer to '~/Final Project/Ver1_Full Model.ipynb'
     * Model with 22 features (reduced model 1)
       * Grouping of the features.
+      > Please refer to '~/Final Project/Ver2_Reduced Model1.ipynb'
     * Model with 3 features by PCA (reduced model 2)
       * Scree Plot  
       <left>
       <img src = https://user-images.githubusercontent.com/46237445/50733642-6d89d800-11d4-11e9-85e8-d387b9960034.png width = 200>
       </left>
       
+      > Please refer to '~/Final Project/Ver3_Reduced Model2(PCA).ipynb'
+  
   * Ordinary Least Squares (OLS)
     * In Multiple Linear Regression (MLR) by OLS, R Squared, Adj. R Squared, F-statistics, and p-value were fair for all three models, though ones with more features displayed higher explanatory power. 
     * Mean squared errors tend to be greater than that of neural network model. 
