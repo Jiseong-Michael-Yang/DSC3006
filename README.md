@@ -64,7 +64,7 @@ Assignments and project in Introduction to Machine Learning (Fall 2018)
   ### 2. Data Description
   > Please refer to '~/Final Project/Lego Set Price Prediction_Final_Team2.pdf' for the detailed project description.
   * Dataset
-    * ["Are Lego Sets Too Pricey?", Jonathan Bouchet, Kaggle](https://www.kaggle.com/jonathanbouchet/are-lego-sets-too-pricey/data)
+    * ["Are Lego Sets Too Pricey?"](https://www.kaggle.com/jonathanbouchet/are-lego-sets-too-pricey/data), Jonathan Bouchet, Kaggle
     * 12261 rows with 14 columns
     * The dataset does not include the entire product lines. 
   
